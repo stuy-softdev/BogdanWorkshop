@@ -1,6 +1,11 @@
 ## K08: Tokens in the Stream
 ### Due: `2025-09-22m` 08:00
 
+### DISCOVERIES, QUESTIONS/COMMENTS/CONCERNS
+I learned from Haowen how to easily deal with the problem of commas splitting up the data. I also realised how a chart with multiple lines is functionally the same as a single line with "\n" separators.
+
+### NOTES FROM THE FIELD
+The QAF is mostly just clarifications for the assignments. I didn't really find anything new.
 
 ### GOAL:
 a) Spread python proficiency among Devo Fam.
