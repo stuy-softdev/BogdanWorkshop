@@ -1,4 +1,4 @@
-# Amy Shrestha, Bogdan Sotnikov
+# Amy Shrestha, Bogdan Sotnikov, Haowen Xiao
 # Software Developers
 # SoftDev
 # K09 -- csv calc
@@ -23,7 +23,7 @@ for i in range(len(splitter)):
     comma = splitter[i].rindex(',')
     # create each dictionary key:value with type casting to convert string into a float
     d[splitter[i][0:comma].replace("\"", "")] = float(splitter[i][comma+1:])
-    # add key items to weighted list
+    # add key items to weighted list rate * 10 times
     for f in range(int(float(splitter[i][comma+1:])*10)):
         key1 = splitter[i][0:comma].replace("\"", "")
         weighted_l.append(key1)
