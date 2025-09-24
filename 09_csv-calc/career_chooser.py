@@ -22,23 +22,23 @@ for i in range(len(splitter)):
     #print(splitter[i])
     comma = splitter[i].rindex(',')
     # create each dictionary key:value with type casting to convert string into a float
-    d[splitter[i][0:comma]] = float(splitter[i][comma+1:])
+    d[splitter[i][0:comma].replace("\"", "")] = float(splitter[i][comma+1:])
     # add key items to weighted list
     for f in range(int(float(splitter[i][comma+1:])*10)):
-        key1 = splitter[i][0:comma]
-        weighted_l.append([key1])
+        key1 = splitter[i][0:comma].replace("\"", "")
+        weighted_l.append(key1)
 
 print(d)
 
-# randomly choose one key value from the weighted dictionary
-handlei = random.randrange(len(weighted_l))
-handle = weighted_l[handlei]
+# randomly choose one key value from the weighted list
+jobi = random.randrange(len(weighted_l))
+job = weighted_l[jobi]
 
 # access value of key item from dictionary
-dname = d.get(str(handle))
+rate = d.get(str(job))
 
 print("\nRandom Item:")
-print(f"{handle}: {dname}\n")
+print(f"{job}: {rate}\n")
 
 
 

@@ -1,6 +1,9 @@
 ## K09: Divine Your Destiny!
 ### Due: `2025-09-25r` 08:00
 
+### DISCOVERIES, QUESTIONS/COMMENTS/CONCERNS
+We figured out how to adapt our old code to a new problem. We also realised that we can easily add weights to items in a list just by adding duplicates. We used this to get occupations according to their rates and then grab them from a clean dictionary that only had one of each entry. We wonder, though, if there is a different way to solve this without creating a very large list.
+
 ### GOAL:
 * Hone CSV i/o.
 * Utilize random calls for more precise task.
