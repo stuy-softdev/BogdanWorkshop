@@ -7,7 +7,7 @@
 * Prune/tune/robustify codebase.
 
 #### DISCOVERIES, QUESTIONS, COMMENTS, CONCERNS
-Flask prints after running. The return outputs to the page that flask opens.
+Flask prints after running. The return outputs to the page that flask opens. "__name__" prints as "__main__". If debugger is on, it prints a line every time you load the page and reloads the app if changes are made to the app.py file. We wonder what each of the lines mean, what restarting with stat is, and what the purpose of the debugger PIN is.
 
 ### TASK:
 As a trio...
