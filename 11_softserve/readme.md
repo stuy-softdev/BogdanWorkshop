@@ -6,9 +6,6 @@
 * Gain working knowledge of python virtual environments.
 * Prune/tune/robustify codebase.
 
-#### DISCOVERIES, QUESTIONS, COMMENTS, CONCERNS
-Flask prints after running. The return outputs to the page that flask opens. "__name__" prints as "__main__". If debugger is on, it prints a line every time you load the page and reloads the app if changes are made to the app.py file. We wonder what each of the lines mean, what restarting with stat is, and what the purpose of the debugger PIN is.
-
 ### TASK:
 As a trio...
 1. In a new folder in your workshop, save a copy of the flask starter kit, versions 0-4.
@@ -25,8 +22,8 @@ As a trio...
    - Display the list of occupations.
    - Display TNPG+roster at top of served page.
    - PROTIP: Versioning will help. Start with something simple, save a copy as soon as it works, add more features –  then *"lather/rinse/repeat"*. You are welcome/encouraged to save your backups in this work folder, along with CSV file.
-   
---- 
+
+---
 
 #### Specifications/Guidelines:
 * NOTE ANYTHING NOTABLE as you go.
@@ -40,6 +37,20 @@ As a trio...
 * Include proper heading. Note team name and roster.
 
 <br>
+
+##### DISCOVERIES, QUESTIONS/COMMENTS/CONCERNS
+* In v3's app.py, turning debug mode on creates a loading website
+page, not an error page or a completely loaded page. Also, because it's loading, none of the print statements print anything into the
+console yet, and that also means that the function hello_world() only
+runs after the page has loaded. When debug mode was turned on, it instead printed "OK" in the console.
+* Changing the name of the function still runs it in the app.
+* When we try returning __name__ instead of a string, it prints __main__ on the website.
+* The line '@app.route("/")' checks directly for the next line of code, and I think it runs it (so it needs to be a function or a blank line of code).
+* What does it mean in v4's app.py that the if statement will be true
+if the file is not imported?
+* How do we use debug mode to debug the code?
+* What is the usage of __name__ in the code?
+
 
 ##### DELIVERABLES:
 * Section in readme for DISCOVERIES, QUESTIONS/COMMENTS/CONCERNS
