@@ -1,6 +1,6 @@
-# Clyde 'Thluffy' Sinclair
-# SoftDev
-# Sep 2025
+# Bogdan Sotnikov, Ethan Saldanha
+# 1% of gamblers
+# Sep 30 2025
 
 """
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -13,7 +13,8 @@ Prediction: http://127.0.0.1:5000/my_foist_template
 Outcome: yes
 
 Q2:
-When the template is run, render_template will replace "foo" with "fooooo" and "collection" with the list initialised earlier.
+Prediction: When the template is run, render_template will replace "foo" with "fooooo" and "collection" with the list initialised earlier.
+Outcome: yes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """
 
