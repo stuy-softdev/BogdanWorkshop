@@ -13,7 +13,6 @@ def hello_world():
     print(__name__)
     return "No hablo queso!"
 
-if __name__ == "__main__":  # true if this file NOT imported 
+if __name__ == "__main__":  # true if this file NOT imported
     app.debug = True        # enable auto-restart of web server upon code change
     app.run()
-
