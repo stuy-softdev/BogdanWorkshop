@@ -1,0 +1,6 @@
+- Jinja2's documentation has a lot of reference code to use when in need of help.
+- In order to link a link into the HTML file with the Jinja2 engine, we simply use it like every other instance of linking a link in HTML.
+- Use Microsoft Excel to edit CSV files.
+- To create a dictionary with multiple values, you can used a nested dictionary with two keys and two values inside the main key:value pair.
+
+EGO

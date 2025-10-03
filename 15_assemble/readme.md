@@ -1,10 +1,6 @@
 ## K15: Template for Success!
 ### Due: `2025-10-03f 08:00`
 
-### DISCOVERIES, QUESTIONS, COMMENTS, CONCERNS
-* You can assign multiple values to a key by assigning an array as its value in the dictionary
-* I wonder if there's a way to make the site reload when the template changes, because stopping and starting it to change the template was kind of tedious
-
 ### GOAL:
 * Gain working knowledge of Jinja2 templating engine.
 * Deepen understanding of how Flask app components work with one another.
@@ -33,8 +29,8 @@ _Step 0: Come together. "Form like Voltron." Learn each others' names. Introduce
    * Configure your app to publish each link alongside its occupation. (You know, to help your users on their way to their new job.)
 1. Stretch/flex goal if you want it... wave team flag to signal readiness :)
 
-   
---- 
+
+---
 
 #### Specifications/Guidelines:
 * NOTE ANYTHING NOTABLE as you go.
@@ -49,6 +45,15 @@ _Step 0: Come together. "Form like Voltron." Learn each others' names. Introduce
 * PROTIP: When designing a new jinja2 template, a Devo-proven approach is writing a static html file first, tuning it until it looks correct, then making a copy and stripping the copy down to its template bones.
 
 <br>
+
+##### DISCOVERIES, QUESTIONS/COMMENTS/CONCERNS:
+* If you want to link a link into a variable passed on from the Python file, you will use the same format and include the quotations for the link, but you will need to wrap the variable with double curly brackets.
+* Using |e next to a variable prevents its formatting from messing with the formats of its nearby text.
+* To access a dictionary inside of a dictionary, use the dictionary value and access it using its name and a period in between.
+* Every for loop and if statement in Jinja2's engine needs to have a matching ending statement
+* Why do we need ending statements for Jinja2's if statements and for loops?
+* The for loop format for Jinja2's engine is similar to Pythons.
+* Use Microsoft Excel to open csv files and save tables as csv files.
 
 ##### DELIVERABLES:
 * Section in readme for DISCOVERIES, QUESTIONS/COMMENTS/CONCERNS
@@ -75,5 +80,3 @@ path/to/myworkshop/$ tree 15_tempwork
 * [jinja2 docs](https://jinja.palletsprojects.com/en/3.1.x/templates/)
 * [link](https://xkcd.com/)
 * [link]()
-
-

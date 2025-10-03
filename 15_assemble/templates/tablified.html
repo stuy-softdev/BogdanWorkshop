@@ -3,9 +3,9 @@
 # Amy Shrestha, Bogdan Sotnikov, Haowen Xiao
 # Software Developers
 # SoftDev
-# K15 -- assemble
+# K15 - assemble
 # 2025-10-01
-# time spent: 0.5
+# time spent: 2.0
  -->
 
 <html>
@@ -15,22 +15,21 @@
   </head>
 
   <body>
-    <h1>List of Occupations and Their Occurance Rates</h1>
-    <h2>Team Name: Software Developers</h2>
+    <h1>Occupation Generator</h1>
+    <h2>Random Item: <a href="{{ link1 }}">{{ job1 }}</a>, {{ rate1 }}</h2>
+    <p>Team Name: Software Developers</p>
     <p>Roster: Amy Shrestha, Bogdan Sotnikov, Haowen Xiao</p>
-
-    <p>Random Occupation: {{ randJob|e }}</p>
     <br>
+    <h2>Occupations Table:</h2>
     <table>
-    <th>Job Class</th><th>Percentage</th>
     {% for key, value in dictionary.items() %}
      <tr>
-       <td><a href = {{ value[1] }}>{{ key }}</td>
-       <td>{{ value[0] }}</td>
+       <td>{{ key|e }}</td>
+       <td>{{ value.percentage|e }}</td>
+       <td><a href="{{ value.link }}">{{ value.link }}</a></td>
     </tr>
-       {% endfor %}
-    <tr><td>Total</td><td>99.8</td></tr>
-  </table>
+    {% endfor %}
+    </table>
   </body>
 
 </html>
