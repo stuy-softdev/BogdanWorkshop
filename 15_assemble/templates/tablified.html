@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+# Amy Shrestha, Bogdan Sotnikov, Haowen Xiao
+# Software Developers
+# SoftDev
+# K15 -- assemble
+# 2025-10-01
+# time spent: 0.5
+ -->
+
+<html>
+
+  <head>
+    <title> {{ title }} </title>
+  </head>
+
+  <body>
+    <h1>List of Occupations and Their Occurance Rates</h1>
+    <h2>Team Name: Software Developers</h2>
+    <p>Roster: Amy Shrestha, Bogdan Sotnikov, Haowen Xiao</p>
+
+    <p>Random Occupation: {{ randJob|e }}</p>
+    <br>
+    <table>
+    <th>Job Class</th><th>Percentage</th>
+    {% for key, value in dictionary.items() %}
+     <tr>
+       <td><a href = {{ value[1] }}>{{ key }}</td>
+       <td>{{ value[0] }}</td>
+    </tr>
+       {% endfor %}
+    <tr><td>Total</td><td>99.8</td></tr>
+  </table>
+  </body>
+
+</html>
