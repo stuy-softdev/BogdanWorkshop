@@ -8,6 +8,13 @@
 ### TASK:
 Your Trio Mission:
 
+### DISCOVERIES, QUESTIONS, COMMENTS, AND CONCERNS
+Discoveries: We discovered that requests.arg['username'] returns the username after you put it in. Method not allowed when we used post method
+Questions: Why doesnt it work when we uncomment so many things, and if its possible to run it if we debug it enough
+Comments: This is a cool project
+Concerns: None
+
+
 _Step 0: Awaken Duckies, remember names, designate driver..._
 
 1. Save today's care package locally.
@@ -17,8 +24,8 @@ _Step 0: Awaken Duckies, remember names, designate driver..._
   - Q: Is it runnable with all the commented-out lines re-enabled? If not, why/how?
 1. If confident in progress so far, grow codebase to echo user input to the page displayed after form submission.
 
-   
---- 
+
+---
 
 #### Specifications/Guidelines:
 * NOTE ANYTHING NOTABLE as you go.
@@ -54,4 +61,3 @@ path/to/my-workshop/$ tree 16_forms
 * [pydocs](https://docs.python.org/3.13/)  
 * [link](https://xkcd.com/)
 * [link]()
-

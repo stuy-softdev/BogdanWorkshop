@@ -1,16 +1,18 @@
-< your heading here >
+Bogdan Sotnikov, Amy Shrestha, Haowen Xiao
+Software Developers
+October 2025
 
 DISCO:
-* 
+* We discovered that requests.arg['username'] returns the username after you put it in. Method not allowed when we used post method
 * 
 * 
 -----------------------------------------------------------------------
 
 
 Q/C/C:
-* 
-* 
-* 
+* Questions: Why doesnt it work when we uncomment so many things, and if its possible to run it if we debug it enough
+* Comments: This is a cool project
+* Concerns: None
 -----------------------------------------------------------------------
 
 
@@ -19,10 +21,3 @@ OTHER?
 * 
 * 
 -----------------------------------------------------------------------
-
-
-
-
-
-
-

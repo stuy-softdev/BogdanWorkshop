@@ -1,11 +1,13 @@
 # Bogdan Sotnikov, Amy Shrestha, Haowen Xiao
-# Software 
+# Software Developers
 # October 2025
 
 # import conventions:
 # list most general first (standard python library)
 # ...then pip installs (eg Flask)
 # ...then your own home-rolled modules/packages (today's test module)
+# We did this assignment by first running it and seeing which comment does what. We predicted it before we ran anything though. THroughout the testing
+# we figured out that the request.arg['username'] returns the username. We used that to return the input from the home page. 
 
 from flask import Flask             #facilitate flask webserving
 from flask import render_template   #facilitate jinja templating
@@ -56,18 +58,20 @@ def disp_loginpage():
 
 @app.route("/auth") # , methods=['GET', 'POST'])
 def authenticate():
-    #print("\n\n\n")
-    #print("***DIAG: this Flask obj ***")
-    #print(app) #prints file name
-    #print("***DIAG: request obj ***")
-    #print(request) #print
-    #print("***DIAG: request.args ***")
-    #print(request.args)
-    #print("***DIAG: request.args['username']  ***")
-    #print(request.args['username'])
-    #print("***DIAG: request.headers ***")
-    #print(request.headers)
-    return "Waaaa hooo HAAAH"  #response to a form submission
+    print("\n\n\n")
+    print("***DIAG: this Flask obj ***")
+    print(app) # prediction: prints file name; outcome: prints the file name
+    print("***DIAG: request obj ***")
+    print(request) # prediction: prints out website link and method used, maybe [GET]; outcome: prints the website link requested and which method used (GET)
+    print("***DIAG: request.args ***")
+    print(request.args) # prediction: prints input of the form; outcome: prints the dictionary with the username and entered username args
+    print("***DIAG: request.args['username']  ***")
+    print(request.args['username']) # prediction: prints the inputted username; outcome: prints the entered username
+    print("***DIAG: request.headers ***")
+    print(request.headers) # prediction: prints all the headers of /auth path; outcome: prints status of the webiste
+    return request.args['username'] # response to a form submission, appears in /auth site
+
+
 
     
 if __name__ == "__main__": #false if this file imported as module
