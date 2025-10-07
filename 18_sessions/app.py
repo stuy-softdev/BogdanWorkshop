@@ -13,6 +13,8 @@ from flask import Flask             #facilitate flask webserving
 from flask import render_template   #facilitate jinja templating
 from flask import request           #facilitate form submission
 
+import testmod0                     #"home-rolled" module for basic exploration
+
 #the conventional way:
 #from flask import Flask, render_template, request
 
@@ -48,8 +50,8 @@ def authenticate():
     print(request.args['username']) # prints the entered username
     print("***DIAG: request.headers ***")
     print(request.headers) # prints status of the webiste
-    return render_template('response.html',
-                           requestMethod=request.method,
+    return render_template('rseponse.html',
+                           requestMethod=request[-1:request.rindex("[")],
                            username=request.args['username']) # response to a form submission, appears in /auth site
 
     
