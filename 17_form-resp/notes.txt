@@ -1,0 +1,30 @@
+# Bogdan Sotnikov, Amy Shrestha, Haowen Xiao
+# Software Dev
+# October 2025
+
+DISCO:
+* Learned that requests.args is for GET, requests.form is used for POST
+* GET can pull things from the uRL
+* Noticed error pages when you are on debug mode
+-----------------------------------------------------------------------
+
+
+Q/C/C:
+* Is it possible for someone to hack your website through POST?
+* If no username is entered, the page crashes instead of handling it 
+* 
+-----------------------------------------------------------------------
+
+
+OTHER?
+* 
+* 
+* 
+-----------------------------------------------------------------------
+
+
+
+
+
+
+

@@ -19,9 +19,10 @@
     <p>Hello, there, {{username}}, we used {{requestMethod}} to get your response to this page.</p>
     <p>Get VS Post</p>
     <p>GET: Used for reading/retrieving data. In our code, requests.arg does this by getting it from the URL. Thats why it can return requests.arg['username']</p>
-    <p>Post: Used for sending data that can change something, like forms or uploads. Instead of requests.args, its request.form or other. POST dont show up in URL</p>
+    <p>POST: Used for sending data that can change something, like forms or uploads. Instead of requests.args, its request.form or other. POST dont show up in URL</p>
     <p>In our code, both '/' and /auth are only using GET requests. It pulls the string from the URL.</p>
     <p>To switch to post, we just need to change themethods=['GET', 'POST'] as shown in the previous code. Then instead of requests.args, we would use request.form to get the submitted fields </p>
+    <p><a href="/logout">Log out</a></p>
   </body>
 
 </html>

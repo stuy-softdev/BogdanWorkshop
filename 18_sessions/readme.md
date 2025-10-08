@@ -1,6 +1,23 @@
 ## K18: Take and Keep
 ### Due: `2025-10-08w 08:00`
 
+# Bogdan Sotnikov, Amy Shrestha, Haowen Xiao
+# Software Dev
+# October 2025
+
+DISCO:
+* We learned how to use session and redirect
+* Session is a dictionary (?)
+* 
+-----------------------------------------------------------------------
+
+
+Q/C/C:
+* How does secret_key work exactly?
+* 
+* 
+-----------------------------------------------------------------------
+
 ### GOAL:
 * Develop basic working knowledge of using local storage to effect state persistence on a remote website.
 
