@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  background-color: dimgrey;
+  color: black;
+}
+
+.header {
+  background-color: lightgrey;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
+
+.middle {
+  background-color: grey;
+  padding: 2px;
+  padding-right: 10px;
+}
+
+nav, h4 {
+  height: 100%;
+  position: fixed;
+  overflow: visible;
+  padding-left: 10px;
+}
+
+nav {
+  color: black;
+}
+
+h4 {
+  color: lightgrey;
+}
+
+main, p {
+  margin-left: 120px;
+}
+
+.feet {
+  position: fixed;
+  width: auto;
+  left: 8px;
+  right: 8px;
+  background-color: #444444;
+  text-align: right;
+  color: grey;
+  padding: 2px;
+  overflow: hidden;
+}

@@ -1,0 +1,6 @@
+Observations / Discoveries / Plan
+- Side navigation panel
+- Main text is left-justified but right next to the navigation pane.
+- Footer with copyright at bottom.
+- Border around the website.
+- Header is filled in with a lighter color.
