@@ -1,0 +1,15 @@
+DISCOVERIES
+* You can use .. in the stylesheet path in html
+*
+-----------------------------------------------------
+QUESTIONS
+* Is there a way to use python to give change the stylesheet applied to the template?
+*
+-----------------------------------------------------
+COMMENTS
+*
+*
+-----------------------------------------------------
+CONCERNS
+*
+*
