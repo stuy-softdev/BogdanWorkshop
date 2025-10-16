@@ -1,0 +1,25 @@
+# Jake Liu, Bogdan Sotnikov, Joyce Lin, Naomi Kurian
+# Lost and Found
+# k21: All Your Database are belong to us
+# 10/15/2025
+# time spent: 30 mins
+
+DISCOVERIES:
+------------------------------------------------------------------------------------------------------
+* We realized how easy it is to use SQLite for anything.
+  You can quickly and easily convert data into a table
+  in the database and display it in a variety of ways.
+* We became acquainted with DictReader, which seems to
+  be really helpful for dealing with data tables. It
+  basically did most of the work for us.
+======================================================================================================
+
+
+QUESTIONS/COMMENTS/CONCERNS:
+------------------------------------------------------------------------------------------------------
+Q: Is there a way to output a displayed table into an html or csv file?
+Q: How can we sort the tables?
+Q: Is there a way to put another table into a table?
+Q: What is the point of putting multiple tables into one database? Can they interact with one another?
+Q: Is there an easier way to update a currently existing database?
+======================================================================================================
