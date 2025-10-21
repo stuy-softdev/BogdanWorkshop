@@ -1,0 +1,22 @@
+# Jake Liu, Bogdan Sotnikov, Joyce Lin, Naomi Kurian
+# Lost and Found
+# k22:...but Where Are They?
+# 10/16/2025
+# time spent: 1hr
+
+DISCO:
+* You can make more detailed selections from table by adding criteria through the usage of WHERE (ex. SELECT name FROM roster WHERE age > 50)
+* c.fetchall() allows you to retrieve everything that was returned in the previous query through c.execute()
+* You can use multiple select statements in your query in order to create return criteria for the main select (ex. SELECT name, id FROM roster WHERE id IN (SELECT id FROM courses WHERE code = 'bio'))
+-----------------------------------------------------------------------
+
+
+Q/C/C:
+* Is it possible to print to the terminal through just a query?
+* Where does the returned data go exactly after a query is made?
+-----------------------------------------------------------------------
+
+
+OTHER?
+* sqlite is surprisingly readable
+-----------------------------------------------------------------------
