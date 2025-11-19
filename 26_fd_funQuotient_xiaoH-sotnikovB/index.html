@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+TNPG: FunQuotient
+Roster: Haowen Xiao, Bogdan Sotnikov
+SoftDev period 5
+K26
+-->
+<head>
+<title>K26: Foundation Demo</title>
+<link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css">
+</head>
+<!--
+this is to import every single thing with style, such as grid, buttons, etc. this the framework
+Also, I understand that you need javascript for foundations, though we didn't really learn it yet so i won't do it (i also dont know how to do it)
+-->
+
+<!--
+<div class = "columns small-6 right" data-sticky-container>
+  <div class = "sticky" data-sticky data-margin-top = "6" data-anchor = "example">
+    <img class = "thumbnail" src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fa4%2Fdf%2F99%2Fa4df997076c6c1ce49e3bd59af1d1274.jpg&f=1&nofb=1&ipt=ea59442178f76fa5a600b4a82bd78c7f4a867d4393ed5a9706a4750dace96866" alt="">
+  </div>
+</div>
+-->
+
+
+<body class = "grid-container">
+<ul class="menu align-center">
+  <li class="menu-text">Navigation</li>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="fidget.html">Fidget</a></li>
+</ul>
+<!-- grid container centers the content-->
+<h1>Foundation Demo</h1>
+<div class = "callout">
+    <p>This is a Foundation callout box. These boxes/styles are easy to change, just change the class!</p>
+</div>
+<div class = "callout primary">
+  <p>By adding on the word "primary" to the callout class, it will change accordingly</p>
+</div>
+<!-- simple demostration of the Foundation "box" with padding a border. part of the simplest component in framework -->
+
+<div class = "grid-x grid-margin-x">
+    <div class = "cell small-12 medium-6 callout ">
+        <p>left column
+        </p>
+    </div>
+    <div class = "cell small-12 medium-6 callout ">
+        <p>right column</p>
+    </div>
+</div>
+<!--
+Grid example
+grid-x = make a row
+cell = a column
+small-12 = full width on small screens
+medium-6 = half width on bigger screens
+The grid system in Foundations
+-->
+
+<a class="button primary" href="https://google.com">A Foundation Button</a>
+<button type= "button" class = "alert button">Literally called "alert button"</button>
+<br>
+<!--
+Button Component, Foundations gives instant styled buttons with the "buttons" class.
+-->
+
+<button class="button" data-open="simpleReveal">Open Reveal</button>
+<div class="reveal" id="simpleReveal" data-reveal>
+<h2>Simple Reveal</h2>
+<p>This is a basic Foundation reveal modal.</p>
+<button class="close-button" data-close aria-label="Close reveal" type="button">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+
+  <div class="cell small-12 medium-3" data-sticky-container>
+      <div class="sticky" data-sticky data-margin-top="1">
+        <img class="thumbnail" style = "width: 300px; float: right;" src="https://media.tenor.com/yK3xGC1GRCEAAAAe/pochita.png" alt="Sticky image">
+      </div>
+    </div>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
+</body>
+
+<!--
+Foundation needs Jqury, it also has a lot of JS features such as dropdowns. I don't want to touch javascript because
+last time Mr. Mykolyk looked pretty mad about JS. But Foundations can do tabs, dropdowns, panels, etc
+-->
+
+
+
+</html>
