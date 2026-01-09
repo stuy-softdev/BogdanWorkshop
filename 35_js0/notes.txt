@@ -1,0 +1,20 @@
+Bogdan, Sean
+RightMouseButtonS
+Jan 2025
+DISCO:
+* We discovered you could write javascript in the console
+-----------------------------------------------------------------------
+
+
+Q/C/C:
+* This is very console
+* How is this "just like scheme with java syntax"
+*
+-----------------------------------------------------------------------
+
+
+OTHER?
+* console.
+*
+*
+-----------------------------------------------------------------------
